@@ -299,6 +299,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
+      {% comment %}
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -352,6 +353,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         </li>
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+	    {% endcomment %}
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
