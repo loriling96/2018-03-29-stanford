@@ -299,7 +299,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -355,7 +354,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         </li>
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-	    
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
@@ -476,7 +474,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <a href="http://notepad-plus-plus.org/">Notepad++</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
-          add their installation directories to your system path to ensure that they run correctly in Git Bash. If you are not sure how to do this, please install and use 'nano' for the duration of the workshop.
+          add their installation directories to your system path to ensure that they run correctly in Git Bash. </strong>
+	  If you are not sure how to do this, please install and use 'nano' for the duration of the workshop.
       </p>
     </div>
     <div class="col-md-4">
@@ -509,8 +508,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-</div> {% comment %} End of 'Python' section. {% endcomment %}
--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
