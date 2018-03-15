@@ -509,7 +509,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-
+</div> {% comment %} End of 'Python' section. {% endcomment %}
+-
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
