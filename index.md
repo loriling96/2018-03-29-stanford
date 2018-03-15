@@ -299,7 +299,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <!-- <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a> -->
+	    <p>This will provide you with both Git and Bash in the Git Bash program.</p>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
@@ -353,7 +354,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
           </ol>
         </li>
       </ol>
-      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+      <!-- <p>This will provide you with both Git and Bash in the Git Bash program.</p> -->
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
