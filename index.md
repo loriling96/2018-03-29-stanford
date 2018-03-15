@@ -299,6 +299,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
+      
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -310,28 +311,30 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
             {% comment %} Select Components {% endcomment %}
             <li>Click on "Next".</li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
+	    <li>Click on "Next".</li>
+	    <li>Click on "Next".</li>
             <li>
               <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+                Ensure that "Use Git from the Windows Command Prompt" is selected and click on "Next".
               </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
+                If you forget to do this gitbash will not work properly, requiring you to remove the GitBash installation, re-run the installer and to select the "Use Git from the Windows Command Prompt" option.
             </li>
             {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
+            <li> Ensure that "Use the OpenSSL Library" is selected and click on "Next".</li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
             <li>
               <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+                Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
               </strong>
             </li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Ensure that "Use Windows' default console window" is selected and click on "Next".
               </strong>
             </li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
+	    <li> Ensure that "Enable file system caching" and "Enable Git Credential Manager" are selected </li>
             <li>Click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
@@ -352,6 +355,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         </li>
       </ol>
       <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+	    
     </div>
     <div class="col-md-4">
       <h4 id="shell-macosx">macOS</h4>
@@ -468,12 +472,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         <strong>This installer requires an active internet connection.</strong>
       </p>
       <p>
-        Others editors that you can use are
+        If you prefer to use other editors (such as
         <a href="http://notepad-plus-plus.org/">Notepad++</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
+          add their installation directories to your system path to ensure that they run correctly in Git Bash. If you are not sure how to do this, please install and use 'nano' for the duration of the workshop.
       </p>
     </div>
     <div class="col-md-4">
@@ -506,8 +509,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-
-</div> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
