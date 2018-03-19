@@ -200,8 +200,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <p>Please download and save the gaminder dataset before the workshop.</p> 
-<p>Go to this <a href="https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder-FiveYearData.csv">link</a></p>
-<p>Save Page as "gapminder-FiveYearData.csv"</p>
+<p>Go to this <a href="https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder-FiveYearData.csv">link</a>, Save Page as "gapminder-FiveYearData.csv"</p>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
